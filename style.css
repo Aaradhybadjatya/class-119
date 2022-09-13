@@ -1,0 +1,49 @@
+body
+{
+background-color: lime;
+
+}
+
+h1
+{
+color: blue;
+background-color: orange;
+}
+
+#show_sketch
+{
+float: right;
+
+}
+
+canvas
+{
+border: 5px solid white;
+border-radius: 20px;
+margin-top: 50px;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes example
+{
+from {
+box-shadow:1px 1px 50px rgb(7, 175, 231);
+
+}
+
+
+to {
+    box-shadow:1px 1px 50px rgb(255, 187, 0);
+    
+    }
+
+}
+
+p{
+padding-top: 10px;
+font-size: 20px;
+
+}
